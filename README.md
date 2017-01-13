@@ -1,6 +1,6 @@
-# W3C XML DOM for all common Javascript platforms [![Build Status](https://travis-ci.org/NatLibFi/xmldom-xplat.svg)](https://travis-ci.org/NatLibFi/xmldom-xplat) [![Test Coverage](https://codeclimate.com/github/NatLibFi/xmldom-xplat/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/xmldom-xplat/coverage)
+# W3C XML DOM that works on all common Javascript platforms [![Build Status](https://travis-ci.org/NatLibFi/xmldom-xplat.svg)](https://travis-ci.org/NatLibFi/xmldom-xplat) [![Test Coverage](https://codeclimate.com/github/NatLibFi/xmldom-xplat/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/xmldom-xplat/coverage)
 
-W3C XML DOM for all common Javascript platforms
+W3C XML DOM that works on all common Javascript platforms
 
 ## License and copyright
 
