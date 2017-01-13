@@ -1,0 +1,46 @@
+{
+  "name": "xmldom-xplat",
+  "description": "W3C XML DOM for all common Javascript platforms",
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "keywords": [
+    "dom",
+    "xml",
+    "w3c",
+    "xmlserializer",
+    "domparser"
+  ],
+  "homepage": "https://github.com/natlibfi/xmldom-xplat",
+  "bugs": {
+    "url": "https://github.com/natlibfi/xmldom-xplat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:natlibfi/xmldom-xplat.git"
+  },
+  "license": "(MIT OR LGPL-3.0+)",
+  "version": "1.0.0",
+  "main": "./lib/nodejs/main",
+  "scripts": {
+    "lint": "jshint .",
+    "test-nodejs": "istanbul cover _mocha",
+    "test-browser": "",
+    "cover-nodejs": "",
+    "cover-browser": "",
+    "cover": "npm run test && istanbul check-coverage",
+    "check": "npm run lint && npm run cover",
+    "travisci": "npm run check",
+    "publish-to-npm": "npm install && npm run check && npm publish"
+  },
+  "dependencies": {
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "istanbul": "^0.4.5",
+    "codeclimate-test-reporter": "^0.4.0"
+  }
+}
