@@ -1,6 +1,6 @@
 {
   "name": "xmldom-xplat",
-  "description": "W3C XML DOM that works on all common Javascript platforms ",
+  "description": "W3C XML DOM that works in browsers and Node.js",
   "author": {
     "name": "The National Library of Finland"
   },
@@ -21,7 +21,7 @@
   },
   "license": "(MIT OR LGPL-3.0+)",
   "version": "1.0.0",
-  "main": "./lib/nodejs/main",
+  "main": "./lib/nodejs",
   "scripts": {
     "lint": "jshint .",
     "test-nodejs": "istanbul cover _mocha",
